@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <title>Hello wasm-pack!</title>
+        <style>
+            body {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+        <div>
+            <input id="range-slider" type="range">
+            <button id="play-pause"></button>
+            <button id="reset-dead">Clear Canvas</button>
+            <button id="reset-rand">Random State</button>
+        </div>
+        <canvas id="game-of-life-canvas"></canvas>
+        <script src="./bootstrap.js"></script>
+    </body>
+</html>
