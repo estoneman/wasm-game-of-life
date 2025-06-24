@@ -16,6 +16,11 @@
                 align-items: center;
                 justify-content: center;
             }
+
+            #fps {
+                white-space: pre;
+                font-family: monospace;
+            }
         </style>
     </head>
     <body>
@@ -26,6 +31,7 @@
             <button id="reset-dead">Clear Canvas</button>
             <button id="reset-rand">Random State</button>
         </div>
+        <div id="fps"></div>
         <canvas id="game-of-life-canvas"></canvas>
         <script src="./bootstrap.js"></script>
     </body>
